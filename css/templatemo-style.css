@@ -129,7 +129,7 @@ p {	line-height: 2.1; }
 }
 
 .tm-site-name-h1 { 
-	color: #0264cf;
+	color: #881b16;
 	font-size: 3rem; 
 }
 
@@ -269,14 +269,14 @@ button:focus { outline: none; }
 }
 
 .tm-content-icon {
-	color: #0066cb;
+	color: #881b16;
 	padding: 30px;
 	margin: 0 auto 30px;
 	text-align: center;
 }
 
 .tm-content-title {
-	color: #0066cb;
+	color: #881b16;
 	font-size: 1.6rem;
 	margin-bottom: 25px;
 }
@@ -284,7 +284,7 @@ button:focus { outline: none; }
 .tm-content-box p { margin-bottom: 25px; }
 
 .tm-testi {
-	background-color: #0066cb;
+	background-color: #881b16;
 	display: -ms-flexbox;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -381,7 +381,7 @@ button:focus { outline: none; }
 .tm-footer { margin-bottom: 40px; }
 
 .tm-social-link {
-	background-color: #0066cb;
+	background-color: #881b16;
     color: white;
     display: inline-block;
     font-size: 1.2em;
