@@ -4,6 +4,10 @@
     local("../font/OCRAEXT.TTF"),
     url("../font/OCRAEXT.TTF");
 }
+p, h2, a{
+    font-family: OCR; 
+}
+
 .font-ocr{
     font-family: OCR;
     cursor: pointer;
@@ -11,4 +15,23 @@
 .font-ocr:hover{
    margin-top: 2px;
    text-shadow: 5px 8px 5px gray;
+}
+.float-btn{
+    width: auto;
+    height: auto;
+    position: fixed;
+    z-index: 2;
+    bottom:2%;
+    right:2%;
+}
+.float-btn i{
+    font-size: 35px;
+    cursor: pointer;
+    color:#881b16;
+
+
+}
+.float-btn i:hover{
+    font-size:40px; 
+    color: #06C
 }
