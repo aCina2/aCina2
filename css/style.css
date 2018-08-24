@@ -23,17 +23,17 @@ p, h2, a{
     z-index: 2;
     bottom:2%;
     right:2%;
+    display: none;
 }
 .float-btn i{
-    font-size: 35px;
+    font-size: 45px;
     cursor: pointer;
-    color:#881b16;
-
-
+    color: #881c16b9
 }
 .float-btn i:hover{
-    font-size:40px; 
-    color: #06C
+    font-size:50px; 
+    color:rgba(0, 102, 204, 0.568);
+    
 }
 .text-justify {
     text-align: justify;
