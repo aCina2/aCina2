@@ -1671,7 +1671,7 @@ img {
 }
 
 .menu_block .side_menu_bottom .side_menu_bottom_inner {
-    position: absolute;
+    position: static;
     left: 0;
     right: 0;
     bottom: 0;
@@ -1913,6 +1913,7 @@ img {
 
 .btn-lg {
     padding: 18px 50px;
+    margin-top: 180px;
 }
 
 .btn_center {
@@ -2117,7 +2118,7 @@ img {
     bottom: 0;
     width: 100%;
     height: 100%;
-    padding: 30px 40px;
+    padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0.7);
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
@@ -2134,8 +2135,8 @@ img {
 
 .project_box_one .product_info .product_info_text .product_info_text_inner {
     display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+    vertical-align: top;
+    text-align: end;
 }
 
 .project_box_one .product_info .product_info_text .product_info_text_inner h4 {
@@ -2185,6 +2186,7 @@ img {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
+    font-size: 13px;
 }
 
 .mfp-title {
@@ -2675,4 +2677,45 @@ textarea.form-control {
 
 .btn-section {
     text-align: center;
+}
+
+.card-title {
+    margin-bottom: 2rem;
+}
+
+.text-muted {
+    color: #666a6e !important;
+    font-size: 15px;
+    line-height: 2.1;
+}
+
+.text-muted > a{
+    color: #666a6e !important;
+    font-size: 15px;
+    line-height: 2.1;
+}
+
+.text-muted > a {
+    color: #666a6e !important;
+    font-size: 20px;
+    line-height: 2.1;
+}
+
+.bi-arrow-up-right-square-fill::before {
+    font-size: 20px;
+    content: "\f142";
+}
+
+
+.text-muted {
+    font-size: 18px;
+    line-height: 2.1;
+    color: rgb(102, 106, 110) !important;
+}
+
+.btn:hover {
+    color: #18181c;
+    background-color: #ffaa1a;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
